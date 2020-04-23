@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+table {
+  max-width: 960px;
+  margin: 40px auto;
+}
+
+caption {
+  font-size: 28px;
+  font-weight: 400;
+  padding: 12px 0;
+}
+
+thead th {
+  background: #35D380;
+  color: #fff;
+  font-weight: initial;
+}
+
+tr { background: #f1f1f1; }
+
+tr:nth-child(2n) { background: #e0e0e0; }
+
+th, td {
+  text-align: left;
+  padding: 24px;
+}
+
+tfoot tr { background: none; }
+
+tfoot td {
+  padding: 12px 2px;
+  font-style: italic;
+  color: #8a97a0;
+}
